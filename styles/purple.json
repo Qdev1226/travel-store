@@ -1,0 +1,26 @@
+{
+	"version": 2,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"slug": "contrast",
+					"color": "#800080",
+					"name": "Contrast"
+				},
+				{
+					"slug": "primary",
+					"color": "#ffffff",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#f7fbfc",
+					"name": "Secondary"
+				}
+			]
+		}
+	}
+}

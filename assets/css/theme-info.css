@@ -1,0 +1,173 @@
+/* Theme Info */
+/* styles for admin page */
+
+.travel-store--about-page--wrapper {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.travel-store--about-page--wrapper .feature-list {
+  display: block;
+}
+.travel-store--about-page--wrapper .travel-store-header-left > .fs-notice {
+  display: none !important;
+}
+.travel-store-header-left h2 {
+  color: #00265e !important;
+}
+
+.travel-store--about-page--wrapper .travel-store-admin-card-header {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  max-width: 100%;
+  background: rgb(245, 245, 245);
+  box-shadow: 1px 1px 10px -7px black;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 4px;
+  margin: 0 0 30px 0;
+}
+.travel-store-admin-card-header {
+  color: #00265e;
+}
+.travel-store--about-page--wrapper .travel-store-admin-card-header h2 {
+  margin: 0;
+
+  font-size: 3rem;
+  line-height: 1.2;
+}
+.travel-store--about-page--wrapper .travel-store-admin-card-header p {
+  color: #00265e;
+}
+.travel-store--about-page--wrapper .travel-store-header-right {
+  justify-self: flex-end;
+}
+
+#travel-store-admin-about-page p,
+#travel-store-admin-about-page {
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 0 0 15px;
+}
+
+.travel-store-admin-button {
+  padding: 10px 30px;
+  text-decoration: inherit;
+  background: #ff6600;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.75;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 35px;
+}
+.travel-store-admin-button.premium-button {
+  margin-left: 5px;
+  color: #fff;
+}
+.travel-store-admin-button:hover {
+  background: #00265e;
+  color: #fff;
+}
+
+.travel-store-about-side {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin: 30px 0;
+  box-shadow: 1px 1px 10px -7px black;
+}
+.travel-store-about-side .travel-store-admin-card {
+  background: rgb(248, 248, 248);
+  padding: 50px;
+  border-radius: 5px;
+  color: #00265e;
+  text-align: center;
+}
+.travel-store-about-side .travel-store-admin-card h3 {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 0 0 15px 0;
+  color: #00265e;
+}
+.travel-store-about-side .travel-store-admin-card .travel-store-admin-button {
+  margin-top: 5px;
+  display: inline-block;
+}
+.travel-store-about-side .travel-store-admin-card p,
+.travel-store-about-side .travel-store-admin-card h4 {
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 0 0 15px;
+}
+
+.travel-store-card-header-button-group {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.travel-store-compare-table-subtitle {
+  font-size: 16px;
+}
+
+.travel-store-compare-table-subtitle a,
+.olive-one-click-demo-import-banner p a {
+  text-decoration: none;
+  color: #ff6600 !important;
+}
+.travel-store-compare-table-subtitle a:hover {
+  color: #00265e !important;
+}
+.travel-store-compare-table-subtitle a:hover,
+.olive-one-click-demo-import-banner p a {
+  color: #00265e;
+}
+.travel-store-compare-table-subtitle a i {
+  font-size: 15px;
+  line-height: 2.2;
+}
+
+.travel-store-compare-table table {
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 2em;
+  width: 100%;
+  color: #000;
+  box-shadow: 0 0 33px #0000001a;
+}
+.travel-store-compare-table table th {
+  border-bottom: 1px solid #ffffff;
+  padding: 15px;
+  color: #00265e;
+  
+}
+.travel-store-compare-table table td {
+  padding: 1em;
+  text-align: center;
+  color: #00265e;
+}
+.travel-store-compare-table table td span {
+  font-size: 21px;
+  border-radius: 100%;
+  padding: 5px;
+  color: #d72b2b;
+}
+.travel-store-compare-table table td span.dashicons.dashicons-yes {
+  text-align: center;
+  color: #4caf50;
+}
+.travel-store-compare-table table tr:nth-child(2n) td {
+  background: #def0ff;
+}
